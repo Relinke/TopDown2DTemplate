@@ -1,0 +1,1480 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getcom",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"colli",
+				"Collider2D\tCollider2D"
+			],
+			[
+				"font",
+				"fontSize\tint"
+			],
+			[
+				"fn",
+				"fontSize\tint"
+			],
+			[
+				"text",
+				"Text\tText"
+			],
+			[
+				"初始",
+				"初始随机状态"
+			],
+			[
+				"ra",
+				"rawget"
+			],
+			[
+				"剧情功能_",
+				"剧情功能_队友入队"
+			],
+			[
+				"log",
+				"logtable"
+			],
+			[
+				"Db",
+				"DBTable"
+			],
+			[
+				"vecto",
+				"Vector3\tVector3"
+			],
+			[
+				"estr",
+				"estr_new_maze_card_type_类型"
+			],
+			[
+				"get",
+				"getText"
+			],
+			[
+				"sc",
+				"scaleX"
+			],
+			[
+				"o_ndoe",
+				"o_node_成员"
+			],
+			[
+				"getC",
+				"getChildAt"
+			],
+			[
+				"气泡",
+				"气泡间隔"
+			],
+			[
+				"any_",
+				"any_气泡信息"
+			],
+			[
+				"新迷宫_获取当前区域",
+				"新迷宫_获取当前区域指定地图格"
+			],
+			[
+				"o_node",
+				"o_node_气泡节点"
+			],
+			[
+				"新迷宫_更新",
+				"新迷宫_更新迷宫界面"
+			],
+			[
+				"剧情功能",
+				"剧情功能_队友入队"
+			],
+			[
+				"剧情",
+				"剧情功能_播放音效"
+			],
+			[
+				"音效_",
+				"音效_获取音轨编号"
+			],
+			[
+				"新迷宫_事件是否",
+				"新迷宫_监听事件是否相等"
+			],
+			[
+				"新迷宫",
+				"新迷宫_是否在新迷宫中"
+			],
+			[
+				"角色",
+				"角色能否显示"
+			],
+			[
+				"o_new_m",
+				"o_new_maze_area"
+			],
+			[
+				"o_new_maze_card",
+				"o_new_maze_card_卡片"
+			],
+			[
+				"新迷宫_获取区域指定",
+				"新迷宫_获取区域指定位置卡片"
+			],
+			[
+				"新迷宫_获取当前位置",
+				"新迷宫_获取当前所在位置"
+			],
+			[
+				"o_new_maze_pos",
+				"o_new_maze_pos_位置"
+			],
+			[
+				"宽广布局",
+				"宽广布局建筑y"
+			],
+			[
+				"新迷宫_获取指定位置",
+				"新迷宫_获取指定位置冒险掉落"
+			],
+			[
+				"o_maze_",
+				"o_maze_adv_loot_掉落"
+			],
+			[
+				"o_rank",
+				"o_rank_品质"
+			],
+			[
+				"新迷宫_播放",
+				"新迷宫_播放掉落散开动画"
+			],
+			[
+				"o_new",
+				"o_new_maze_card_卡片"
+			],
+			[
+				"o_new_maze_te",
+				"o_new_maze_terrain_block_地图格"
+			],
+			[
+				"root",
+				"root_card"
+			],
+			[
+				"roo",
+				"root_card"
+			],
+			[
+				"当前",
+				"当前新迷宫"
+			],
+			[
+				"显示",
+				"显示前进标记"
+			],
+			[
+				"属性增幅",
+				"属性增幅数值"
+			],
+			[
+				"c_new",
+				"c_new_maze_card"
+			],
+			[
+				"remove",
+				"removeChild"
+			],
+			[
+				"getChi",
+				"getChildByName"
+			],
+			[
+				"叠加等级_获取",
+				"叠加等级_获取角色叠加等级"
+			],
+			[
+				"int_",
+				"int_叠加等级"
+			],
+			[
+				"any_次级",
+				"any_卡片次级类型"
+			],
+			[
+				"新迷宫_获取当前",
+				"新迷宫_获取当前区域"
+			],
+			[
+				"o_",
+				"o_new_maze_card"
+			],
+			[
+				"o_new_maze_area",
+				"o_new_maze_area_区域"
+			],
+			[
+				"o_new_maz",
+				"o_new_maze_迷宫"
+			],
+			[
+				"num",
+				"number_权重"
+			],
+			[
+				"0x",
+				"0x1052000b"
+			],
+			[
+				"新迷宫_生成",
+				"新迷宫_生成动态事件卡片"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Plugins/Ink/Example/Scripts/BasicInkExample.cs",
+			"settings":
+			{
+				"buffer_size": 3852,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Document/Note.md",
+			"settings":
+			{
+				"buffer_size": 444,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Role/Player.cs",
+			"settings":
+			{
+				"buffer_size": 319,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Common/CommonAPI.cs",
+			"settings":
+			{
+				"buffer_size": 352,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Role/Monster.cs",
+			"settings":
+			{
+				"buffer_size": 264,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Role/NPC.cs",
+			"settings":
+			{
+				"buffer_size": 260,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Role/Character.cs",
+			"settings":
+			{
+				"buffer_size": 225,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Plugins/Ink/InkRuntime/Story.cs",
+			"settings":
+			{
+				"buffer_size": 99260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Plugins/Ink/InkRuntime/VariablesState.cs",
+			"settings":
+			{
+				"buffer_size": 12070,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"mp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"md",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mdp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 220.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Project Unity/InkTest/Assets",
+		"/E/Project Unity/InkTest/Assets/Document"
+	],
+	"file_history":
+	[
+		"/C/Users/feiym/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/hosts - 副本",
+		"/C/Windows/System32/drivers/etc/hosts - 副本",
+		"/E/Project Unity/InkTest/Assets/Scripts/Role/Character.cs",
+		"/E/Project Unity/InkTest/Assets/Scripts/Role/Role.cs",
+		"/E/Project/DreamRivakeEditor/doc/工作日报/ChenBoChao/编辑器功能接口整理文档(原版).md",
+		"/E/Project Unity/InkTest/Assets/Document/Note.md",
+		"/E/Project Unity/InkTest/InkTest.sublime-project",
+		"/E/Project Unity/InkTest/Assets/Plugins/Ink/Example/Scripts/BasicInkExample.cs",
+		"/E/Project/DreamRivakeEditor/res/common/script/gfutil.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_arene.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_ui.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_create_role.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_extra_level.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_test.lua",
+		"/E/Project/DreamRivakeEditor/write/loader/log/logtable.txt",
+		"/E/Project/DreamRivakeEditor/write/loader/log/game.csv",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_character.lua",
+		"/E/Project/DreamRivakeEditor/res/common/script/gfsave.lua",
+		"/E/Project/DreamRivakeEditor/res/common/script/gfcall.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_content_logic_city.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_role.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_clan.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_role.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_new_maze.lua",
+		"/E/Project/DreamRivakeEditor/write/loader/save/netplay/100503/globalsave.json",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_misc.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_init.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_quests_act3_jinyong_main.lua",
+		"/E/Project/DreamRivakeEditor/res/common/script/gevent.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_evolution.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_cityrolelist.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_favor.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_kungfu.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland_git/script/04_program/p_test.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland_git/script/04_program/p_battle.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_system.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_script.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/06_notify/n_battle.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_marry.lua",
+		"/E/Project/dreamrivakes_pub/write/loader/log/game.csv",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_new_quest_516_riyueshenjiao.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_role_putongmuban.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_attribute.lua",
+		"/E/Project/dreamrivakes_pub/project/dreamland/script/04_program/p_new_quest_513_huashanpai.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_storyfuns.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_role_fengchong.lua",
+		"/E/Project/DreamRivakeEditor/res/common/script/gflog.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_new_quest_301_kaifeng.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_common.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_cheat.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_navigationbar.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland_git/script/04_program/p_role.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_new_maze_card.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_battle.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_battle.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/05_anim/a_battle.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_new_quest_302_beijing_new.lua",
+		"/E/Project/DreamRivakeEditor/res/common/script/gfaction.lua",
+		"/C/Users/feiym/AppData/Roaming/BCompare/BCompare.ini",
+		"/E/Project/DreamRivakeEditor/doc/工作日报/ChenBoChao/2019.1.7.md",
+		"/E/Project/DreamRivakeEditor/res/common/script/gfclient.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_maze.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/06_notify/n_common.lua",
+		"/E/Project/DreamRivakeEditor/res/common/script/gfview.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_new_maze.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_script.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/02_ui_view/v_script.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_ui_topmost.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_cheat.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_tutorial.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_map.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_timer.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_city.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_clan.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_new_quest_305_hangzhou.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland_git/script/03_ui_component/c_common.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_chat_box.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_setting.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_debug.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland_git/script/03_ui_component/c_setting.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland_git/script/03_ui_component/c_chat_box.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland_git/script/04_program/p_new_quest_301_kaifeng.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_cave_warn.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_item.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland_git/script/04_program/p_item.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_playerMode.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_npcstory_interactive.lua",
+		"/E/Project/DreamRivakeEditor/res/common/script/gfdata.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamrivakejymini/script/03_ui_component/c_main.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamrivakejymini/script/04_program/p_init.lua",
+		"/E/Project/DreamRivakeEditor/loader/script/04_program/p_loader.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/servershare/gfdream.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_typedef.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_city.lua",
+		"/E/Project/DreamRivakeEditor/loader/script/gameinit.lua",
+		"/E/Project/DreamRivakeEditor/template/script/gameinit.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_new_maze_card.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_new_maze.lua",
+		"/E/Project/dreamrivakes_pub/res/common/script/gfcall.lua",
+		"/E/Project/dreamrivakes_pub/res/common/script/gfclient.lua",
+		"/E/Project/dreamrivakes_pub/res/common/script/gfsave.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_skill.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_city.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_rank.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_round.lua",
+		"/E/Project/DreamRivakeEditor/tool/sync_test/gfcall.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_new_maze_area.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_event.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_quest.lua",
+		"/E/Project/DreamRivakeEditor/res/editor/script/_t_program.lua",
+		"/E/Project/DreamRivakeEditor/loader/script/01_data/o_typedef.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_new_maze_map.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_quest_log.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_decisibattlecontent.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/06_notify/n_comic.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_common.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_quest.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/01_data/o_achieve.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/03_ui_component/c_store.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_wenyin.lua",
+		"/E/Project/DreamRivakeEditor/doc/工作日报/ChenBoChao/SortDailyReport.py",
+		"/E/Project/DreamRivakeEditor/doc/工作日报/ChenBoChao/2017.12.md",
+		"/E/Project/DreamRivakeEditor/doc/工作日报/ChenBoChao/2018.md",
+		"/E/Project/DreamRivakeEditor/doc/工作日报/ChenBoChao/2018.1.md",
+		"/E/Project/DreamRivakeEditor/doc/工作日报/ChenBoChao/2018.12.md",
+		"/E/Project/dreamrivakes_pub/project/dreamland/script/version.lua",
+		"/E/Project/DreamRivakeEditor/project/dreamland/script/04_program/p_kungfu.lua"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 128.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"position",
+			"RefreshView",
+			"player_name"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Plugins/Ink/Example/Scripts/BasicInkExample.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1973,
+								1973
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"2141,2147": "当前上下文中不存在名称“button”",
+								"41,46": "不需要的 using 指令。"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 961.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Document/Note.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"parser": "markdown",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"target": "disk"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Assets/Scripts/Role/Player.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "不需要的 using 指令。",
+								"259,263": "“E:\\Project Unity\\InkTest\\Assets\\Scripts\\Common\\CommonAPI.cs”中的类型“CommonAPI”与“Ink-Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null”中的导入类型“CommonAPI”冲突。请使用“E:\\Project Unity\\InkTest\\Assets\\Scripts\\Common\\CommonAPI.cs”中定义的类型。",
+								"26,31": "不需要的 using 指令。"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Assets/Scripts/Common/CommonAPI.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "不需要的 using 指令。",
+								"26,31": "不需要的 using 指令。",
+								"281,290": "未能找到类型或命名空间名“Character”(是否缺少 using 指令或程序集引用?)"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/Scripts/Role/Monster.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "不需要的 using 指令。",
+								"121,122": "应输入类型",
+								"26,31": "不需要的 using 指令。",
+								"60,65": "不需要的 using 指令。"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Assets/Scripts/Role/NPC.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Assets/Scripts/Role/Character.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								128
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "不需要的 using 指令。",
+								"211,212": "应输入 }",
+								"26,31": "不需要的 using 指令。",
+								"80,89": "应为 {"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Assets/Plugins/Ink/InkRuntime/Story.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 99260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5948,
+								5948
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Assets/Plugins/Ink/InkRuntime/VariablesState.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3080,
+								2965
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"2966,2972": "应输入 ;"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1548.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 174.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 174.0
+	},
+	"pinned_build_system": "",
+	"project": "InkTest.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gf",
+				"res\\common\\script\\gfcall.lua"
+			],
+			[
+				"gfsave",
+				"res\\common\\script\\gfsave.lua"
+			],
+			[
+				"p_test",
+				"project\\dreamland\\script\\04_program\\p_test.lua"
+			],
+			[
+				"gfdreaml",
+				"project\\dreamland\\script\\servershare\\gfdream.lua"
+			],
+			[
+				"gfcall",
+				"res\\common\\script\\gfcall.lua"
+			],
+			[
+				"player",
+				"project\\dreamland\\script\\server_msg\\player.lua"
+			],
+			[
+				"logtable",
+				"write\\loader\\log\\logtable.txt"
+			],
+			[
+				"gamecsv",
+				"write\\loader\\log\\game.csv"
+			],
+			[
+				"p_role",
+				"project\\dreamland\\script\\04_program\\p_role.lua"
+			],
+			[
+				"p_clan",
+				"project\\dreamland\\script\\04_program\\p_clan.lua"
+			],
+			[
+				"p_content",
+				"project\\dreamland\\script\\04_program\\p_content_logic_city.lua"
+			],
+			[
+				"p_new_maze",
+				"project\\dreamland\\script\\04_program\\p_new_maze.lua"
+			],
+			[
+				"o_role",
+				"project\\dreamland\\script\\01_data\\o_role.lua"
+			],
+			[
+				"gfutil",
+				"res\\common\\script\\gfutil.lua"
+			],
+			[
+				"c_character",
+				"project\\dreamland\\script\\03_ui_component\\c_character.lua"
+			],
+			[
+				"p_extr",
+				"project\\dreamland\\script\\04_program\\p_extra_level.lua"
+			],
+			[
+				"gevent",
+				"res\\common\\script\\gevent.lua"
+			],
+			[
+				"p_evolution",
+				"project\\dreamland\\script\\04_program\\p_evolution.lua"
+			],
+			[
+				"gamecs",
+				"write\\loader\\log\\game.csv"
+			],
+			[
+				"p_misc",
+				"project\\dreamland\\script\\04_program\\p_misc.lua"
+			],
+			[
+				"c_cityrole",
+				"project\\dreamland\\script\\03_ui_component\\c_cityrolelist.lua"
+			],
+			[
+				"o_kungfu",
+				"project\\dreamland\\script\\01_data\\o_kungfu.lua"
+			],
+			[
+				"p_init",
+				"project\\dreamland\\script\\04_program\\p_init.lua"
+			],
+			[
+				"riyue",
+				"project\\dreamland\\script\\04_program\\p_new_quest_516_riyueshenjiao.lua"
+			],
+			[
+				"p_attr",
+				"project\\dreamland\\script\\04_program\\p_attribute.lua"
+			],
+			[
+				"p_new_ma",
+				"project\\dreamland\\script\\04_program\\p_new_maze.lua"
+			],
+			[
+				"p_storyfuns",
+				"project\\dreamland\\script\\04_program\\p_storyfuns.lua"
+			],
+			[
+				"gflog",
+				"res\\common\\script\\gflog.lua"
+			],
+			[
+				"p_favor",
+				"project\\dreamland\\script\\04_program\\p_favor.lua"
+			],
+			[
+				"c_navigation",
+				"project\\dreamland\\script\\03_ui_component\\c_navigationbar.lua"
+			],
+			[
+				"c_common",
+				"project\\dreamland\\script\\03_ui_component\\c_common.lua"
+			],
+			[
+				"c_new_maze_card",
+				"project\\dreamland\\script\\03_ui_component\\c_new_maze_card.lua"
+			],
+			[
+				"gfaction",
+				"res\\common\\script\\gfaction.lua"
+			],
+			[
+				"c_battle",
+				"project\\dreamland\\script\\03_ui_component\\c_battle.lua"
+			],
+			[
+				"p_battle",
+				"project\\dreamland\\script\\04_program\\p_battle.lua"
+			],
+			[
+				"p_story",
+				"project\\dreamland\\script\\04_program\\p_storyfuns.lua"
+			],
+			[
+				"o_item",
+				"project\\dreamland\\script\\01_data\\o_item.lua"
+			],
+			[
+				"p_ui",
+				"project\\dreamland\\script\\04_program\\p_ui.lua"
+			],
+			[
+				"p_maze",
+				"project\\dreamland\\script\\04_program\\p_maze.lua"
+			],
+			[
+				"gfview",
+				"res\\common\\script\\gfview.lua"
+			],
+			[
+				"c_new_maze",
+				"project\\dreamland\\script\\03_ui_component\\c_new_maze.lua"
+			],
+			[
+				"c_creat",
+				"project\\dreamland\\script\\03_ui_component\\c_create_role.lua"
+			],
+			[
+				"c_script",
+				"project\\dreamland\\script\\03_ui_component\\c_script.lua"
+			],
+			[
+				"n_common",
+				"project\\dreamland\\script\\06_notify\\n_common.lua"
+			],
+			[
+				"p_new_maz",
+				"project\\dreamland\\script\\04_program\\p_new_maze.lua"
+			],
+			[
+				"c_cheat",
+				"project\\dreamland\\script\\03_ui_component\\c_cheat.lua"
+			],
+			[
+				"o_map",
+				"project\\dreamland\\script\\01_data\\o_map.lua"
+			],
+			[
+				"o_city",
+				"project\\dreamland\\script\\01_data\\o_city.lua"
+			],
+			[
+				"o_clan",
+				"project\\dreamland\\script\\01_data\\o_clan.lua"
+			],
+			[
+				"c_sett",
+				"project\\dreamland\\script\\03_ui_component\\c_setting.lua"
+			],
+			[
+				"c_debug",
+				"project\\dreamland\\script\\03_ui_component\\c_debug.lua"
+			],
+			[
+				"c_chea",
+				"project\\dreamland\\script\\03_ui_component\\c_cheat.lua"
+			],
+			[
+				"c_chat",
+				"project\\dreamland\\script\\03_ui_component\\c_chat_box.lua"
+			],
+			[
+				"gfclient",
+				"res\\common\\script\\gfclient.lua"
+			],
+			[
+				"c_chatbox",
+				"project\\dreamland_git\\script\\03_ui_component\\c_chat_box.lua"
+			],
+			[
+				"c_setting",
+				"project\\dreamland_git\\script\\03_ui_component\\c_setting.lua"
+			],
+			[
+				"gfdata",
+				"res\\common\\script\\gfdata.lua"
+			],
+			[
+				"p_np",
+				"project\\dreamland\\script\\04_program\\p_npcstory_interactive.lua"
+			],
+			[
+				"p_new_",
+				"project\\dreamland\\script\\04_program\\p_new_maze.lua"
+			],
+			[
+				"gameinit",
+				"loader\\script\\gameinit.lua"
+			],
+			[
+				"p_loader",
+				"loader\\script\\04_program\\p_loader.lua"
+			],
+			[
+				"o_typedef",
+				"project\\dreamland\\script\\01_data\\o_typedef.lua"
+			],
+			[
+				"p_city",
+				"project\\dreamland\\script\\04_program\\p_city.lua"
+			],
+			[
+				"o_new_maze_card",
+				"project\\dreamland\\script\\01_data\\o_new_maze_card.lua"
+			],
+			[
+				"p_new",
+				"project\\dreamland\\script\\04_program\\p_new_maze.lua"
+			],
+			[
+				"o_new_maze",
+				"project\\dreamland\\script\\01_data\\o_new_maze.lua"
+			],
+			[
+				"o_rank",
+				"project\\dreamland\\script\\01_data\\o_rank.lua"
+			],
+			[
+				"p_skill",
+				"project\\dreamland\\script\\04_program\\p_skill.lua"
+			],
+			[
+				"c_city",
+				"project\\dreamland\\script\\03_ui_component\\c_city.lua"
+			],
+			[
+				"o_new_maze_area",
+				"project\\dreamland\\script\\01_data\\o_new_maze_area.lua"
+			],
+			[
+				"p_roun",
+				"project\\dreamland\\script\\04_program\\p_round.lua"
+			],
+			[
+				"p_script",
+				"project\\dreamland\\script\\04_program\\p_script.lua"
+			],
+			[
+				"o_event",
+				"project\\dreamland\\script\\01_data\\o_event.lua"
+			],
+			[
+				"p_quest",
+				"project\\dreamland\\script\\04_program\\p_quest.lua"
+			],
+			[
+				"301_kaifeng",
+				"project\\dreamland\\script\\04_program\\p_new_quest_301_kaifeng.lua"
+			],
+			[
+				"p_attri",
+				"project\\dreamland\\script\\04_program\\p_attribute.lua"
+			],
+			[
+				"c_new_maze_map",
+				"project\\dreamland\\script\\03_ui_component\\c_new_maze_map.lua"
+			],
+			[
+				"p_dec",
+				"project\\dreamland\\script\\04_program\\p_decisibattlecontent.lua"
+			],
+			[
+				"gfdream",
+				"project\\dreamland\\script\\servershare\\gfdream.lua"
+			],
+			[
+				"c_quest_log",
+				"project\\dreamland\\script\\03_ui_component\\c_quest_log.lua"
+			],
+			[
+				"c_quest",
+				"project\\dreamland\\script\\03_ui_component\\c_quest.lua"
+			],
+			[
+				"p_system",
+				"project\\dreamland\\script\\04_program\\p_system.lua"
+			],
+			[
+				"c_store",
+				"project\\dreamland\\script\\03_ui_component\\c_store.lua"
+			],
+			[
+				"p_kung",
+				"project\\dreamland\\script\\04_program\\p_kungfu.lua"
+			],
+			[
+				"o_itemty",
+				"project\\dreamland\\script\\01_data\\o_itemtype.lua"
+			],
+			[
+				"p_lotery",
+				"project\\dreamland\\script\\04_program\\p_lottery.lua"
+			],
+			[
+				"p_item",
+				"project\\dreamland\\script\\04_program\\p_item.lua"
+			],
+			[
+				"p_role_puton",
+				"project\\dreamland\\script\\04_program\\p_role_putongmuban.lua"
+			],
+			[
+				"p_cheat",
+				"project\\dreamland\\script\\04_program\\p_cheat.lua"
+			],
+			[
+				"o_buff",
+				"project\\dreamland\\script\\01_data\\o_buff.lua"
+			],
+			[
+				"o_skill",
+				"project\\dreamland\\script\\01_data\\o_skill.lua"
+			],
+			[
+				"p_attribu",
+				"project\\dreamland\\script\\04_program\\p_attribute.lua"
+			],
+			[
+				"c_stor",
+				"project\\dreamland\\script\\03_ui_component\\c_storage_in.lua"
+			],
+			[
+				"c_weekpackage",
+				"project\\dreamland\\script\\03_ui_component\\c_weekpackage.lua"
+			],
+			[
+				"p_round",
+				"project\\dreamland\\script\\04_program\\p_round.lua"
+			],
+			[
+				"c_loader",
+				"project\\dreamland\\script\\03_ui_component\\c_loader.lua"
+			],
+			[
+				"c_slider",
+				"loader\\script\\03_ui_component\\c_slider.lua"
+			],
+			[
+				"c_quest_tip",
+				"project\\dreamland\\script\\03_ui_component\\c_quest_tip.lua"
+			],
+			[
+				"p_load",
+				"loader\\script\\04_program\\p_loader.lua"
+			],
+			[
+				"c_mar",
+				"project\\dreamland\\script\\03_ui_component\\c_marquee.lua"
+			],
+			[
+				"_data",
+				"res\\editor\\script\\_data.lua"
+			],
+			[
+				"_config",
+				"res\\editor\\script\\_config.lua"
+			],
+			[
+				"n_new_maze",
+				"project\\dreamland\\script\\06_notify\\n_new_maze.lua"
+			],
+			[
+				"p_acc",
+				"project\\dreamland\\script\\04_program\\p_account.lua"
+			],
+			[
+				"p_marry",
+				"project\\dreamland\\script\\04_program\\p_marry.lua"
+			],
+			[
+				"o_misc",
+				"project\\dreamland\\script\\01_data\\o_misc.lua"
+			],
+			[
+				"v_new_maze_bubb",
+				"project\\dreamland\\script\\02_ui_view\\v_new_maze_bubble.lua"
+			],
+			[
+				"_val_ctr",
+				"res\\editor\\script\\_val_ctrl.lua"
+			],
+			[
+				"a_new_maz",
+				"project\\dreamland\\script\\05_anim\\a_new_maze.lua"
+			],
+			[
+				"a_common",
+				"project\\dreamland\\script\\05_anim\\a_common.lua"
+			],
+			[
+				"a_new_maze",
+				"project\\dreamland\\script\\05_anim\\a_new_maze.lua"
+			],
+			[
+				"c_battle_role",
+				"project\\dreamland\\script\\03_ui_component\\c_battle_role.lua"
+			],
+			[
+				"c_new_maze_team",
+				"project\\dreamland\\script\\03_ui_component\\c_new_maze_team.lua"
+			],
+			[
+				"c_button",
+				"loader\\script\\03_ui_component\\c_button.lua"
+			],
+			[
+				"c_new_maze_ma",
+				"project\\dreamland\\script\\03_ui_component\\c_new_maze_map_grid.lua"
+			],
+			[
+				"c_spine",
+				"project\\dreamland\\script\\03_ui_component\\c_spine_model.lua"
+			],
+			[
+				"p_common_bu",
+				"project\\dreamland\\script\\04_program\\p_common_bubble.lua"
+			],
+			[
+				"c_new_maz",
+				"project\\dreamland\\script\\03_ui_component\\c_new_maze_bubble.lua"
+			],
+			[
+				"v_new_maze_bb",
+				"project\\dreamland\\script\\02_ui_view\\v_new_maze_bubble.lua"
+			],
+			[
+				"c_character_ara",
+				"project\\dreamland\\script\\03_ui_component\\c_character_array.lua"
+			],
+			[
+				"c_create_role",
+				"project\\dreamland\\script\\03_ui_component\\c_create_role.lua"
+			],
+			[
+				"c_city_building",
+				"project\\dreamland\\script\\03_ui_component\\c_city_building.lua"
+			],
+			[
+				"c_battle_result",
+				"project\\dreamland\\script\\03_ui_component\\c_battle_result.lua"
+			],
+			[
+				"n_batt",
+				"project\\dreamland\\script\\06_notify\\n_battle.lua"
+			],
+			[
+				"p_battle_dreamland",
+				"project\\dreamland\\script\\04_program\\p_battle_dreamland.lua"
+			],
+			[
+				"p_audio",
+				"project\\dreamland\\script\\04_program\\p_audio.lua"
+			],
+			[
+				"v_adv_loot",
+				"project\\dreamland\\script\\02_ui_view\\v_adv_loot.lua"
+			],
+			[
+				"c_adv_loot",
+				"project\\dreamland\\script\\03_ui_component\\c_adv_loot.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
