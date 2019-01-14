@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Game{
+namespace Game {
 	public class Monster : Character {
-
-		// Use this for initialization
-		void Start () {
-			
+		public Monster () {
+			this.characterType = CharacterType.MONSTER;
 		}
-		
-		// Update is called once per frame
+
+		void Start () {
+
+		}
+
 		void Update () {
-			
+
 		}
 	}
 }

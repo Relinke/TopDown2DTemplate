@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Game{
+namespace Game {
 	public class NPC : Character {
+		public NPC () {
+			this.characterType = CharacterType.NPC;
+		}
 
-		// Use this for initialization
 		void Start () {
-			
+
 		}
-		
-		// Update is called once per frame
+
 		void Update () {
-			
+
 		}
+
 	}
 }
