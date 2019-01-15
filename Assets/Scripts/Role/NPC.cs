@@ -15,6 +15,5 @@ namespace Game {
 		void Update () {
 
 		}
-
 	}
 }

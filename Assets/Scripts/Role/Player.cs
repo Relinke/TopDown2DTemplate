@@ -13,7 +13,11 @@ namespace Game {
 		}
 
 		private void Awake () {
+			AddInputManager ();
+		}
 
+		private void AddInputManager () {
+			this.gameObject.AddComponent<InputManager> ().Init (this);
 		}
 
 		private void Start () {
@@ -22,6 +26,21 @@ namespace Game {
 
 		private void Update () {
 
+		}
+
+		public void TryInteract () {
+			if (interactCharacterList.Count <= 0) {
+				return;
+			}
+
+			Character interactCharacter = interactCharacterList[0];
+			for (int i = 1; i < interactCharacterList.Count; ++i) {
+				if (interactCharacter.GetDistanceTo (this) > interactCharacterList[i].GetDistanceTo (this)) {
+					interactCharacter = interactCharacterList[i];
+				}
+			}
+
+			interactCharacter.OnInteract (this);
 		}
 
 		private void OnTriggerEnter2D (Collider2D col) {
@@ -61,7 +80,6 @@ namespace Game {
 		}
 
 		private void UpdateInteractTip () {
-			// TODO: 根据交互角色列表更新交互提示
 			if (interactCharacterList.Count > 0) {
 				this.ShowInteractTip ();
 			} else {
