@@ -2,7 +2,7 @@
 
 ## 相关
 
-> Ink https://github.com/inkle/ink
+> [Ink](https://github.com/inkle/ink)
 
 ## 功能
 
