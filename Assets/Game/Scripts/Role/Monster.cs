@@ -1,0 +1,19 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Game {
+	public class Monster : Character {
+		public Monster () {
+			this.characterType = CharacterType.MONSTER;
+		}
+
+		void Start () {
+
+		}
+
+		void Update () {
+
+		}
+	}
+}
