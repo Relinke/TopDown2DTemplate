@@ -9,9 +9,11 @@ namespace Game {
 		public static DialogueManager instance;
 
 		[SerializeField]
-		private Transform uiParent;
+		private GameObject dialogueUI;
 		[SerializeField]
-		private Text textPrefab;
+		private Transform buttonParent;
+		[SerializeField]
+		private Text textUI;
 		[SerializeField]
 		private Button buttonPrefab;
 		private Story story;
@@ -27,49 +29,66 @@ namespace Game {
 		}
 
 		private void Init () {
-			this.gameObject.SetActive (false);
+			EndStory ();
 		}
 
 		public void ShowStory (TextAsset interactInkJson) {
 			story = new Story (interactInkJson.text);
-			this.gameObject.SetActive (true);
+			dialogueUI.SetActive (true);
 			ContinueStory (-1);
-			// TODO: 显示选项
 		}
 
-		private void ContinueStory (int choice) {
+		private void ContinueStory (int choiceIndex) {
+			string text;
+
 			if ((!story.canContinue) && (story.currentChoices.Count <= 0)) {
 				EndStory ();
 				return;
 			}
-			RemoveUIChildren ();
-			if (choice >= 0) {
-				// TODO: 做选项
-			} else {
-				string text = story.Continue ();
-				Text storyText = Instantiate (textPrefab) as Text;
-				storyText.text = text;
-				storyText.transform.SetParent (uiParent, false);
+			if (choiceIndex >= 0) {
+				story.ChooseChoiceIndex (choiceIndex);
+				if ((!story.canContinue) && (story.currentChoices.Count <= 0)) {
+					EndStory ();
+					return;
+				}
+			} else if (!story.canContinue) {
+				return;
+			}
+			ResetUI ();
+			text = story.Continue ();
+			textUI.text = text;
+			if (story.currentChoices.Count > 0) {
+				for (int i = 0; i < story.currentChoices.Count; i++) {
+					Choice choice = story.currentChoices[i];
+					Button button = Instantiate (buttonPrefab);
+					button.transform.SetParent (buttonParent);
+					button.GetComponentInChildren<Text> ().text = choice.text;
+					button.onClick.AddListener (delegate {
+						OnClickChoice (choice.index);
+					});
+				}
 			}
 		}
 
 		private void EndStory () {
-			RemoveUIChildren ();
+			ResetUI ();
+			dialogueUI.SetActive (false);
 		}
 
-		private void RemoveUIChildren () {
-			int childCount = uiParent.childCount;
+		private void ResetUI () {
+			int childCount = buttonParent.childCount;
 			for (int i = childCount - 1; i >= 0; --i) {
-				GameObject.Destroy (uiParent.GetChild (i).gameObject);
+				GameObject.Destroy (buttonParent.GetChild (i).gameObject);
 			}
+			textUI.text = "";
 		}
 
 		public void OnClickChoice (int choice) {
-			ContinueStory(choice);
+			ContinueStory (choice);
 		}
 
 		public void OnClickDialoguePanel () {
-			ContinueStory(-1);
+			ContinueStory (-1);
 		}
 	}
 }
