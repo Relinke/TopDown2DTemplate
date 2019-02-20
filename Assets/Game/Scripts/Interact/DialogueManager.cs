@@ -5,26 +5,21 @@ using UnityEngine;
 using UnityEngine.UI;
 
 namespace Game {
-	public class DialogueManager : MonoBehaviour {
-		public static DialogueManager instance;
+	public class DialogueManager : Framework.MonoSingleton<DialogueManager> {
+		[SerializeField]
+		private GameObject dialogueRootUI;
+		[SerializeField]
+		private Transform choiceButtonParent;
+		[SerializeField]
+		private Text dialogueTextUI;
+		[SerializeField]
+		private Text characterNameTextUI;
+		[SerializeField]
+		private Button choiceButtonPrefab;
 
-		[SerializeField]
-		private GameObject dialogueUI;
-		[SerializeField]
-		private Transform buttonParent;
-		[SerializeField]
-		private Text textUI;
-		[SerializeField]
-		private Button buttonPrefab;
 		private Story story;
 
 		private void Awake () {
-			if (instance != null) {
-				Destroy (this);
-				return;
-			} else {
-				instance = this;
-			}
 			Init ();
 		}
 
@@ -32,55 +27,76 @@ namespace Game {
 			EndStory ();
 		}
 
-		public void ShowStory (TextAsset interactInkJson) {
+		public void SetAndShowStory (TextAsset interactInkJson) {
 			story = new Story (interactInkJson.text);
-			dialogueUI.SetActive (true);
+			ShowStoryUI ();
 			ContinueStory (-1);
 		}
 
-		private void ContinueStory (int choiceIndex) {
-			string text;
+		private void ShowStoryUI () {
+			dialogueRootUI.SetActive (true);
+		}
 
+		private void HideStoryUI () {
+			dialogueRootUI.SetActive (false);
+		}
+
+		public void ContinueStory (int choiceIndex) {
+			string dialogueText;
+
+			if (choiceIndex >= 0) {
+				story.ChooseChoiceIndex (choiceIndex);
+			} else if (!story.canContinue) {
+				return;
+			}
 			if ((!story.canContinue) && (story.currentChoices.Count <= 0)) {
 				EndStory ();
 				return;
 			}
-			if (choiceIndex >= 0) {
-				story.ChooseChoiceIndex (choiceIndex);
-				if ((!story.canContinue) && (story.currentChoices.Count <= 0)) {
-					EndStory ();
-					return;
-				}
-			} else if (!story.canContinue) {
+			ResetUI ();
+			dialogueText = story.Continue ();
+			UpdateDialogueUI (dialogueText);
+			UpdateChoiceUI ();
+		}
+
+		private void UpdateDialogueUI (string dialogueText) {
+			dialogueTextUI.text = dialogueText;
+		}
+
+		private void UpdateChoiceUI () {
+			if (story.currentChoices.Count <= 0) {
 				return;
 			}
-			ResetUI ();
-			text = story.Continue ();
-			textUI.text = text;
-			if (story.currentChoices.Count > 0) {
-				for (int i = 0; i < story.currentChoices.Count; i++) {
-					Choice choice = story.currentChoices[i];
-					Button button = Instantiate (buttonPrefab);
-					button.transform.SetParent (buttonParent);
-					button.GetComponentInChildren<Text> ().text = choice.text;
-					button.onClick.AddListener (delegate {
-						OnClickChoice (choice.index);
-					});
-				}
+			for (int i = 0; i < story.currentChoices.Count; ++i) {
+				Choice choice = story.currentChoices[i];
+				Button button = GameObject.Instantiate (choiceButtonPrefab);
+				button.transform.SetParent (choiceButtonParent);
+				button.GetComponentInChildren<Text> ().text = choice.text;
+				button.onClick.AddListener (delegate {
+					OnClickChoice (choice.index);
+				});
 			}
 		}
 
 		private void EndStory () {
 			ResetUI ();
-			dialogueUI.SetActive (false);
+			HideStoryUI ();
 		}
 
 		private void ResetUI () {
-			int childCount = buttonParent.childCount;
+			RemoveAllChoiceButton ();
+			ResetDialogueUI ();
+		}
+
+		private void RemoveAllChoiceButton () {
+			int childCount = choiceButtonParent.childCount;
 			for (int i = childCount - 1; i >= 0; --i) {
-				GameObject.Destroy (buttonParent.GetChild (i).gameObject);
+				GameObject.Destroy (choiceButtonParent.GetChild (i).gameObject);
 			}
-			textUI.text = "";
+		}
+
+		private void ResetDialogueUI () {
+			dialogueTextUI.text = "";
 		}
 
 		public void OnClickChoice (int choice) {

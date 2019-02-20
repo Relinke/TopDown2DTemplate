@@ -21,7 +21,7 @@ namespace Game {
 
 		public override void OnInteract (Character other) {
 			base.OnInteract (other);
-			DialogueManager.instance.ShowStory (interactInkJson);
+			DialogueManager.Instance ().SetAndShowStory (interactInkJson);
 		}
 	}
 }
