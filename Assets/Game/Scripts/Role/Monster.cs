@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Game {
-	public class Monster : Character {
+	public class Monster : Role {
 		public Monster () {
-			this.characterType = CharacterType.MONSTER;
+			this.roleType = RoleType.MONSTER;
 		}
 
 		void Start () {

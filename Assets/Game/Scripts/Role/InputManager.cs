@@ -7,7 +7,7 @@ namespace Game {
 		public static InputManager instance;
 		private Player player;
 
-		public void Init (Player p) {
+		public void SetPlayer (Player p) {
 			if (instance != null) {
 				Destroy (this);
 				return;
@@ -19,7 +19,7 @@ namespace Game {
 
 		void Update () {
 			if (Input.GetKeyDown (KeyCode.E)) {
-				player.TryInteract ();
+				player.DoInteract ();
 			}
 
 			Vector2 moveDir = Vector2.zero;
@@ -33,7 +33,7 @@ namespace Game {
 			} else if (Input.GetKeyDown (KeyCode.S) || Input.GetKeyDown (KeyCode.DownArrow) || Input.GetKey (KeyCode.S) || Input.GetKey (KeyCode.DownArrow)) {
 				moveDir.y = -1;
 			}
-			player.MoveTo (moveDir);
+			player.Move (moveDir);
 		}
 	}
 }

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Game {
-	public class NPC : Character {
+	public class NPC : Role {
 		[SerializeField]
 		private TextAsset interactInkJson;
 
 		public NPC () {
-			this.characterType = CharacterType.NPC;
+			this.roleType = RoleType.NPC;
 		}
 
 		void Start () {
@@ -19,7 +19,7 @@ namespace Game {
 
 		}
 
-		public override void OnInteract (Character other) {
+		public override void OnInteract (Role other) {
 			base.OnInteract (other);
 			DialogueManager.Instance ().SetAndShowStory (interactInkJson);
 		}

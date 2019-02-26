@@ -3,21 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Game {
-	public class Player : Character {
-		[SerializeField]
-		private GameObject interactTip;
-		private List<Character> interactCharacterList = new List<Character> ();
+	public class Player : Role {
+		private List<Role> canInteractRoleList = new List<Role> ();
+		private Role interactRole;
 
 		public Player () {
-			this.characterType = CharacterType.PLAYER;
+			this.roleType = RoleType.PLAYER;
 		}
 
 		private void Awake () {
-			AddInputManager ();
+			Init ();
 		}
 
-		private void AddInputManager () {
-			this.gameObject.AddComponent<InputManager> ().Init (this);
+		private void Init () {
+			InitInputManager ();
+		}
+
+		private void InitInputManager () {
+			InputManager inputManager = gameObject.AddComponent<InputManager> ();
+			inputManager.SetPlayer (this);
 		}
 
 		private void Start () {
@@ -28,71 +32,80 @@ namespace Game {
 
 		}
 
-		public void TryInteract () {
-			if (interactCharacterList.Count <= 0) {
+		public void DoInteract () {
+			if (interactRole == null) {
 				return;
 			}
 
-			Character interactCharacter = interactCharacterList[0];
-			for (int i = 1; i < interactCharacterList.Count; ++i) {
-				if (interactCharacter.GetDistanceTo (this) > interactCharacterList[i].GetDistanceTo (this)) {
-					interactCharacter = interactCharacterList[i];
-				}
-			}
-
-			interactCharacter.OnInteract (this);
+			interactRole.OnInteract (this);
 		}
 
 		private void OnTriggerEnter2D (Collider2D col) {
 			Debug.Log ("Enter");
-			if (CommonAPI.IsCharacter (col.gameObject)) {
-				Character character = col.GetComponent<Character> ();
-				this.AddInteractCharacter (character);
+			if (CommonAPI.IsRole (col.gameObject)) {
+				AppendCanInteractRoleList (col.gameObject);
 			}
+		}
+
+		private void OnTriggerStay2D (Collider2D col) {
+			UpdateInteractRole ();
 		}
 
 		private void OnTriggerExit2D (Collider2D col) {
 			Debug.Log ("Exit");
-			if (CommonAPI.IsCharacter (col.gameObject)) {
-				Character character = col.GetComponent<Character> ();
-				this.RemoveInteractCharacter (character);
+			if (CommonAPI.IsRole (col.gameObject)) {
+				RemoveFromCanInteractRoleList (col.gameObject);
 			}
 		}
 
-		private void AddInteractCharacter (Character character) {
-			if (this.IsCharacterInInteractList (character)) {
+		private void AppendCanInteractRoleList (GameObject roleObject) {
+			Role role = roleObject.GetComponent<Role> ();
+			if (canInteractRoleList.Contains (role)) {
 				return;
 			}
-			interactCharacterList.Add (character);
-			this.UpdateInteractTip ();
+			canInteractRoleList.Add (role);
 		}
 
-		private void RemoveInteractCharacter (Character character) {
-			if (!this.IsCharacterInInteractList (character)) {
+		private void RemoveFromCanInteractRoleList (GameObject roleObject) {
+			Role role = roleObject.GetComponent<Role> ();
+			if (!canInteractRoleList.Contains (role)) {
 				return;
 			}
-			interactCharacterList.Remove (character);
-			this.UpdateInteractTip ();
-		}
-
-		private bool IsCharacterInInteractList (Character character) {
-			return interactCharacterList.Contains (character);
-		}
-
-		private void UpdateInteractTip () {
-			if (interactCharacterList.Count > 0) {
-				this.ShowInteractTip ();
-			} else {
-				this.HideInteractTip ();
+			canInteractRoleList.Remove (role);
+			role.HideInteractTip ();
+			if (role == interactRole) {
+				SetInteractRole (null);
 			}
 		}
 
-		private void HideInteractTip () {
-			interactTip.SetActive (false);
+		private void UpdateInteractRole () {
+			if (canInteractRoleList.Count <= 0) {
+				return;
+			}
+
+			Role role = null;
+			for (int i = 0; i < canInteractRoleList.Count; ++i) {
+				if (role == null) {
+					role = canInteractRoleList[i];
+				} else {
+					Role other = canInteractRoleList[i];
+					if (GetDistanceTo (role.transform) > GetDistanceTo (other.transform)) {
+						role.HideInteractTip ();
+						role = other;
+					} else {
+						other.HideInteractTip ();
+					}
+				}
+			}
+			SetInteractRole (role);
 		}
 
-		private void ShowInteractTip () {
-			interactTip.SetActive (true);
+		private void SetInteractRole (Role role) {
+			interactRole = role;
+			if (interactRole != null) {
+				Debug.Log (interactRole.gameObject.name);
+				interactRole.ShowInteractTip ();
+			}
 		}
 	}
 }
